@@ -30,6 +30,9 @@ namespace LeetSpeakApp.Objects
       } else if ((array[i].Equals('o')) || (array[i].Equals('O')))
       {
         array[i] = '0';
+      } else if (array[i].Equals('I'))
+      {
+        array[i] = '1';
       }
     }
     return array;
