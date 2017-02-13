@@ -39,7 +39,7 @@ namespace LeetSpeakApp.Objects
       } else if (array[0].Equals('z'))
       {
         array[0] = 's';
-      } 
+      }
 
     }
     return array;

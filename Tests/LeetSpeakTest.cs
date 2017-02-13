@@ -12,8 +12,8 @@ namespace LeetSpeakApp.Test
     {
       //Arrange
       LeetSpeak testLeetSpeak = new LeetSpeak();
-      string resultTest = "sh3ll01";
-      string inputWord = "shelloI";
+      string resultTest = "shz3ll01";
+      string inputWord = "shselloI";
       // char[] testArray;
       testLeetSpeak.toArray(inputWord);
       char[] translatedArray = testLeetSpeak.adjustArray(testLeetSpeak._charArray);
