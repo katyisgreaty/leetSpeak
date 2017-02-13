@@ -12,12 +12,16 @@ namespace LeetSpeakApp.Test
     {
       //Arrange
       LeetSpeak testLeetSpeak = new LeetSpeak();
-      string resultTest = "car";
-      string inputWord = "car";
-      char[] testArray;
+      string resultTest = "h3ll0";
+      string inputWord = "hello";
+      // char[] testArray;
       testLeetSpeak.toArray(inputWord);
-      testLeetSpeak.toString(testLeetSpeak._charArray);
-      Assert.Equal(testLeetSpeak._result, resultTest);
+      char[] translatedArray = testLeetSpeak.adjustArray(testLeetSpeak._charArray);
+
+      testLeetSpeak.toString(translatedArray);
+      Assert.Equal(translatedArray, resultTest);
+
+
       //Act
       //Assert
       //Arrange
